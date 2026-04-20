@@ -28,6 +28,7 @@ def health_check():
 @app.route("/salary-prediction/api/v1/salary", methods=["POST"])
 def predict():
     """
+    
     Predict salary based on input JSON payload
     Expected keys: age, gender, country, highest_deg, coding_exp, title, company_size
     """
